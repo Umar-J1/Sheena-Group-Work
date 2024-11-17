@@ -38,7 +38,7 @@ nav{
 nav ul{
     text-align: center;
     float: left;
-    background-color: #982121;
+    background-color: #ff0000;
     color: aliceblue;
     list-style: none;
     width: 70%;
@@ -69,7 +69,7 @@ nav li{
     height: 125px;
     padding-left: 0px;
     padding-bottom: 0px;
-    background-color: #982121;
+    background-color: #ff0000;
     position: sticky;
     top: 0px;
     left: 0%;
