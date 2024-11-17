@@ -172,46 +172,61 @@ a:hover{
     margin-top: 45px;
     float: left;
     width: 90%;
-    height: 300px;
+    min-height: 300px;
     margin-left: 5%;
     background-color: #fff;
     color: #813531;
     margin-bottom: 20px;
     box-shadow: 0px 0px 4px #982121;
-    max-height: 270px;
-    text-wrap:wrap;
+    
+    text-wrap:pretty;
     text-align: center;
     border-radius: 15px;
 }
 .box1 h3{
-   width: 30%; 
-   margin-left:40%;
+   width: 100%; 
+   
+}
 
+
+.box1 img{
+    float:left;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    
+    margin-top: 10px;
+    
+    border-radius: 10px;
 }
-.box2 h3{
-    width: 30%; 
-    margin-left:60%;
- 
+.box1 p{
+    float: left;
 }
+
+
 .box3 h3{
     width: 30%; 
     margin-left:8.5%;
  
 }
-.box1 h3{
-    width: 30%; 
-    margin-left:40%;
- 
- }
 
-.box1 img{
-    float:left;
-    /* max-width: 30%; */
-    padding-left: 5px;
-    margin: 5px;
-    margin-top: 10px;
-    height: 250px;  
-    border-radius: 10px;
+
+ .box2{
+    margin-top: 0px;
+    float: left;
+    width: 43.75%;
+    margin-left: 5%;
+    background-color: #ffffff;
+    color: #000;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 4px black;
+    min-height: 270px;
+    text-wrap:wrap;
+    text-align: center;
+}
+.box2 img{
+    
+    width: 50%;
 }
 .box2 img{
     float:left;
@@ -220,6 +235,14 @@ a:hover{
     margin: 5px;
     margin-top: 10px;
     height: 250px;  
+}
+
+/* i dont know which box2 was the correct one. find out i guess */
+
+.box2 h3{
+    width: 30%; 
+    margin-left:60%;
+ 
 }
 .box3 img{
     float:right;
@@ -239,29 +262,13 @@ a:hover{
 }
 
 
-.box2{
-    margin-top: 0px;
-    float: left;
-    width: 43.75%;
-    margin-left: 5%;
-    background-color: #ffb80e;
-    color: #000;
-    margin-bottom: 40px;
-    box-shadow: 0px 0px 4px black;
-    min-height: 270px;
-    text-wrap:wrap;
-    text-align: center;
-}
-.box2 img{
-    
-    width: 50%;
-}
+
 .box3{
     margin-top:0px;
     float: left;
     width: 43.75%;
     margin-left: 2.5%;
-    background-color: 	#ff611d;
+    background-color: 	#1900ff;
     color: #edf2f4;
     margin-bottom: 75px;
     box-shadow: 0px 0px 4px black;
